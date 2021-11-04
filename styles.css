@@ -1,0 +1,71 @@
+body {
+    font-family: verdana, sans-serif;
+    margin: 0;
+    background-color: #ffe9d5;
+}
+
+h1 {
+    font-family:georgia, serif;
+}
+
+p {
+    text-indent: 30px;
+}
+
+.main {
+    margin-left: 25%;
+    padding: 2%;
+}
+
+.side {
+    position: fixed;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100vh;
+    margin: inherit;
+    background-color: #0a2c91;
+    color: lavender;
+    text-align: center;
+    transition: 1s;
+}
+
+.foto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 200px;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.foto:hover {
+    border-radius: 5%;
+}
+
+.dados {
+    margin-top: 20%;
+    margin-left: 3%;
+    width: 70%;
+    list-style: none;
+}
+
+.dados li {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: mediumblue;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+    transition: 500ms;
+}
